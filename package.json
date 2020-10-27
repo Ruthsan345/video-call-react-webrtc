@@ -2,6 +2,9 @@
   "name": "video",
   "version": "0.1.0",
   "private": true,
+  "engines": { 
+    "node": "12.18.4" 
+  },
   "scripts": {
     "dev": "NODE_ENV=production nodemon app.js",
     "start": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"NODE_ENV=production PORT=3001 react-scripts start\"",
