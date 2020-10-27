@@ -2,6 +2,9 @@
   "name": "video",
   "version": "0.1.0",
   "private": true,
+  "engines": { 
+    "node": "12.18.4" 
+  }, 
   "dependencies": {
     "@material-ui/core": "^5.0.0-alpha.10",
     "@material-ui/icons": "^4.9.1",
