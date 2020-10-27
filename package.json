@@ -2,16 +2,6 @@
   "name": "video",
   "version": "0.1.0",
   "private": true,
-  "engines": { 
-    "node": "12.18.4" 
-  },
-  "scripts": {
-    "dev": "NODE_ENV=production nodemon app.js",
-    "start": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"NODE_ENV=production PORT=3001 react-scripts start\"",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "dependencies": {
     "@material-ui/core": "^5.0.0-alpha.10",
     "@material-ui/icons": "^4.9.1",
@@ -42,7 +32,14 @@
     "standard": "^14.3.3",
     "xss": "^1.0.8"
   },
-  
+  "scripts": {
+    "ss":"node apps.js \"NODE_ENV=production PORT=3001 react-scripts start\"",
+    "start": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"NODE_ENV=production PORT=3001 react-scripts start\"",
+    "server": "NODE_ENV=production nodemon app.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
