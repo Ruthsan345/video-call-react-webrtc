@@ -34,7 +34,7 @@ class Home extends Component {
 				
 				<div>
 					<h1 class="head" style={{ color: "white",fontSize: "45px" }}>Share a Story !!</h1>
-					<p style={{  color: "white", fontWeight: "200" }}>Start a Story Telling Session Through Video Conference that lets you stay in touch with all your Clan.</p>
+					<p style={{  color: "white", fontWeight: "200" }}>Start a Story Telling Session Through Video Conference that lets you stay in touch with  your Clan.</p>
 				</div>
 
 				<div style={{
